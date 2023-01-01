@@ -125,6 +125,7 @@ nav img {
     background-color: #F4694C;
     border: 2px solid #F4694C;
 }
+
 .leftHero button:nth-child(2) {
     border: 2px solid #ffffff;
 }
@@ -153,12 +154,12 @@ nav img {
 
 .playButton:hover {
     filter: drop-shadow(0px 0px 20px #ffffff);
-    cursor:wait;
+    cursor: wait;
 }
 
 .rightHeroBottom {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     gap: 10px;
     position: relative;
     left: 20px;
@@ -172,20 +173,87 @@ nav img {
 }
 
 .rightHeroBottom .dash {
-    width:50px;
+    width: 50px;
     height: 50px;
     position: relative;
     top: -10px;
 }
 
 .rightHeroBottom .arrow {
-    width:50px;
+    width: 50px;
     height: 50px;
     position: relative;
     top: 90px;
     left: -10px;
 }
 
+/* war Games Section */
+
 .warGames {
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+}
+
+.warGames h1 {
+    font-size: 50px;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+}
+
+.warGamesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.warGameBox {
+    /* grid-column: span 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.img1 {
+    height: 350px;
+    padding: 0px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    /* transform: scale(1.5); */
+    clip-path: inset(0 10% 0% 40%);
+    object-fit: contain;
+}
+.img2 {
+    height: 350px;
+    padding: 0px;
+    /* transform: scale(1.5); */
+    clip-path: inset(0 10% 0% 40%);
+    object-fit: contain;
+}
+.img3 {
+    height: 300px;
+    padding: 0px;
+    /* transform: scale(1.5); */
+    clip-path: inset(0 10% 0% 40%);
+    object-fit: contain;
+}
+.img4 {
+    height: 300px;
+    padding: 0px;
+    /* transform: scale(1.5); */
+    clip-path: inset(0 10% 0% 40%);
+    object-fit: contain;
+}
+
+.rating img {
+    height: 15px;
+}
+
+.warGameDetails {
+    display: flex;
 }
