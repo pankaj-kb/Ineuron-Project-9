@@ -16,10 +16,6 @@ button {
     cursor: pointer;
 }
 
-.playButton {
-    cursor: pointer;
-}
-
 .nav-hero {
     background-image: var(--heroImage);
     background-position: center;
@@ -33,10 +29,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 5;
 
 }
 
@@ -87,7 +79,7 @@ nav img {
 
 .heroSection {
     height: 800;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     display: flex;
     /* justify-content: space-around; */
 
@@ -104,7 +96,7 @@ nav img {
 
 .leftHero h1 {
     font-size: 55px;
-    width: 45%;
+    width: 48%;
 }
 
 .leftHero h1 span {
@@ -113,7 +105,7 @@ nav img {
 
 .leftHero p {
     color: #918D8D;
-    width: 35%;
+    width: 40%;
 }
 
 .leftHeroButtons {
@@ -161,6 +153,7 @@ nav img {
 
 .playButton:hover {
     filter: drop-shadow(0px 0px 20px #ffffff);
+    cursor:wait;
 }
 
 .rightHeroBottom {
@@ -191,4 +184,8 @@ nav img {
     position: relative;
     top: 90px;
     left: -10px;
+}
+
+.warGames {
+    background-color: #ffffff;
 }
