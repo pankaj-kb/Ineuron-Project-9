@@ -211,20 +211,39 @@ nav img {
     gap: 20px;
 }
 
+.warGameDetails {
+    display: flex;
+}
+
 .warGameCard1 {
-    display: flex;
+    background-image: url(../Assets/Photos/image\ 1.png);
 }
+
 .warGameCard2 {
-    display: flex;
 }
+
 .warGameCard3 {
-    display: flex;
 }
+
 .warGameCard4 {
-    display: flex;
 }
 
 .warCardLeft {
     display: flex;
     flex-direction: column;
+}
+
+.warCardLeft p:nth-child(1) {
+    font-size: 18px;
+}
+
+.warCardLeft p:nth-child(2) {
+    font-size: 15px;
+}
+
+.warGameCard button{
+    background-color: #F4694C;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 10px;
 }
