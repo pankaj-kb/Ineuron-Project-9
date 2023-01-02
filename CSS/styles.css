@@ -189,7 +189,7 @@ nav img {
 
 /* war Games Section */
 
-.warGames {
+.warGamesSection {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -198,9 +198,33 @@ nav img {
     justify-content: space-evenly;
 }
 
-.warGames h1 {
+.warGamesSection h1 {
     font-size: 50px;
     font-weight: 700;
     width: 50%;
     text-align: center;
+}
+
+.warGamesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.warGameCard1 {
+    display: flex;
+}
+.warGameCard2 {
+    display: flex;
+}
+.warGameCard3 {
+    display: flex;
+}
+.warGameCard4 {
+    display: flex;
+}
+
+.warCardLeft {
+    display: flex;
+    flex-direction: column;
 }
