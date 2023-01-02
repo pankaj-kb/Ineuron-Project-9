@@ -207,31 +207,49 @@ nav img {
 
 .warGamesGrid {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .warGameCard {
     height: 400px;
     width: 300px;
+    background-size:750px;  /* zoom out on the background image by 50% */
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.warGameCard:hover {
+    transform: scale(1.2);
+    background-size: 600px;
+    justify-content: center;
 }
 
 .warGameCard1 {
     background-image: url(../Assets/Photos/image\ 1.png);
+    background-position: 70%;
+    box-shadow: 0 0 10px 5px rgba(139, 158, 164, 1);
 }
 
 .warGameCard2 {
     background-image: url(../Assets/Photos/image\ 2.png);
+    background-position: 50%;
+    box-shadow: 0 0 10px 5px rgba(109, 96, 54, 1);
 
 }
 
 .warGameCard3 {
     background-image: url(../Assets/Photos/image\ 3.png);
+    background-position: 50%;
+    box-shadow: 0 0 10px 5px rgba(70, 82, 165, 1);
 
 }
 
 .warGameCard4 {
     background-image: url(../Assets/Photos/image\ 4.png);
-
+    background-position: 50%;
+    box-shadow: 0 0 10px 5px rgba(183, 43, 41, 1);
 }
 
 .warGameDetails {
@@ -240,7 +258,25 @@ nav img {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 300px;
+    /* top: 300px; */
+    height: 100px;
+    width: 100%;
+}
+
+.warGameCard1 .warGameDetails {
+    background-color: rgba(73, 78, 80, 0.6);
+}
+
+.warGameCard2 .warGameDetails {
+    background-color: rgba(73, 78, 80, 0.6);
+}
+
+.warGameCard3 .warGameDetails {
+    background-color: rgba(73, 78, 80, 0.6);
+}
+
+.warGameCard4 .warGameDetails {
+    background-color: rgba(73, 78, 80, 0.6);
 }
 
 .warCardLeft {
@@ -258,7 +294,7 @@ nav img {
     color: #949797;
 }
 
-.warGameCard button{
+.warGameCard button {
     background-color: #F4694C;
     color: #ffffff;
     font-size: 15px;
