@@ -206,13 +206,13 @@ nav img {
 }
 
 .warGamesGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     gap: 20px;
 }
 
-.warGameDetails {
-    display: flex;
+.warGameCard {
+    height: 400px;
+    width: 300px;
 }
 
 .warGameCard1 {
@@ -220,12 +220,27 @@ nav img {
 }
 
 .warGameCard2 {
+    background-image: url(../Assets/Photos/image\ 2.png);
+
 }
 
 .warGameCard3 {
+    background-image: url(../Assets/Photos/image\ 3.png);
+
 }
 
 .warGameCard4 {
+    background-image: url(../Assets/Photos/image\ 4.png);
+
+}
+
+.warGameDetails {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
 }
 
 .warCardLeft {
@@ -235,10 +250,12 @@ nav img {
 
 .warCardLeft p:nth-child(1) {
     font-size: 18px;
+    color: #ffffff;
 }
 
 .warCardLeft p:nth-child(2) {
     font-size: 15px;
+    color: #949797;
 }
 
 .warGameCard button{
