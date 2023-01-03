@@ -298,8 +298,8 @@ nav img {
     display: flex;
     align-items: center;
     height: 900px;
-    background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 29%, rgba(166,65,32,1) 92%);
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 29%, rgba(166, 65, 32, 1) 92%);
     justify-content: space-evenly;
     /* border-top: 1px solid #000000; */
     gap: 200px;
@@ -318,7 +318,7 @@ background: radial-gradient(circle, rgba(0,0,0,1) 29%, rgba(166,65,32,1) 92%);
 .warGameSection2-right {
     display: flex;
     flex-direction: column;
-    position:relative;
+    position: relative;
     /* left: 500px; */
     gap: 50px;
     width: 600px
@@ -368,4 +368,11 @@ background: radial-gradient(circle, rgba(0,0,0,1) 29%, rgba(166,65,32,1) 92%);
     background-color: #DF3A11;
     color: #ffffff;
     border: #DF3A11;
+}
+
+/* Reccomendation Section */
+
+.recommandation-section {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 29%, rgba(166, 65, 32, 1) 92%);
 }
