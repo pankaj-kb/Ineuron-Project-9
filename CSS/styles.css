@@ -378,6 +378,11 @@ nav img {
     height: 900px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.recommandation-section .topSection {
+    display: flex;
 }
 
 .recommandation-section .topSection h1 {
@@ -386,6 +391,25 @@ nav img {
     /* width: 60%; */
     text-align: left;
     color: #ffffff;
-    width:40%;
-    align-items: center;
+    width:50%;
+}
+
+.leftRightArrow img {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.leftRightArrow img:nth-child(1) {
+    background-color: #FDE1DB;
+}
+
+.leftRightArrow img:nth-child(1):hover {
+    background-color: #FDE1DB; 
+}
+
+.leftRightArrow img:nth-child(2) {
+    background-color: #F4694C;
 }
