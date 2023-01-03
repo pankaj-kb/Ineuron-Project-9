@@ -375,4 +375,17 @@ nav img {
 .recommandation-section {
     background: rgb(0, 0, 0);
     background: radial-gradient(circle, rgba(0, 0, 0, 1) 29%, rgba(166, 65, 32, 1) 92%);
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommandation-section .topSection h1 {
+    font-size: 50px;
+    font-weight: 700;
+    /* width: 60%; */
+    text-align: left;
+    color: #ffffff;
+    width:40%;
+    align-items: center;
 }
