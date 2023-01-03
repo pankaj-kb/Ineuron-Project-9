@@ -367,7 +367,7 @@ nav img {
 .warGameSection2RightButtons button:nth-child(2):hover {
     background-color: #DF3A11;
     color: #ffffff;
-    border: #DF3A11;
+    border: 2px solid #DF3A11;
 }
 
 /* Reccomendation Section */
