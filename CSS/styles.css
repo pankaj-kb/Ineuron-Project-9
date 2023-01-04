@@ -20,7 +20,7 @@ button {
     background-image: var(--heroImage);
     background-position: center;
     background-repeat: repeat-x repeat-y;
-    height: 900px;
+    height: 1000px;
     color: #ffffff;
 }
 
