@@ -538,6 +538,8 @@ nav img {
 .middleSection .rsBoxLeft:hover {
     /* box-shadow: none; */
     transform: perspective(900px) rotateY(20deg);
+    /* backdrop-blur: 10px; */
+    /* opacity: 0.5; */
 }
 
 .middleSection .rsBoxRight:hover {
