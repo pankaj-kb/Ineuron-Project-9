@@ -379,10 +379,14 @@ nav img {
     display: flex;
     flex-direction: column;
     align-items:center;
+    gap: 50px;
 }
 
 .recommandation-section .topSection {
     display: flex;
+    gap: 200px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .recommandation-section .topSection h1 {
@@ -412,4 +416,38 @@ nav img {
 
 .leftRightArrow img:nth-child(2) {
     background-color: #F4694C;
+}
+
+.middleSection {
+    display: flex;
+    align-items: center;
+    gap: 500px;
+    justify-content: space-around;
+}
+
+.lastSection {
+    display: flex;
+    align-items: center;
+    gap: 500px;
+    justify-content: space-around;
+}
+
+.rsBoxLeft {
+    display: flex;
+    color: #ffffff;
+}
+ 
+.rsBoxRight {
+    display: flex;
+    color: #ffffff;
+}
+
+.rsBoxRight img {
+    height: 300px;
+
+}
+
+.rsBoxLeft img {
+    height: 300px;
+
 }
