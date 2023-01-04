@@ -375,16 +375,17 @@ nav img {
 .recommandation-section {
     background: rgb(0, 0, 0);
     background: radial-gradient(circle, rgba(0, 0, 0, 1) 29%, rgba(166, 65, 32, 1) 92%);
-    height: 900px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     gap: 50px;
+    padding-top: 50px;
 }
 
 .recommandation-section .topSection {
     display: flex;
-    gap: 200px;
+    gap: 400px;
     justify-content: space-around;
     align-items: center;
 }
@@ -395,7 +396,7 @@ nav img {
     /* width: 60%; */
     text-align: left;
     color: #ffffff;
-    width:50%;
+    width: 50%;
 }
 
 .leftRightArrow img {
@@ -411,7 +412,7 @@ nav img {
 }
 
 .leftRightArrow img:nth-child(1):hover {
-    background-color: #FDE1DB; 
+    background-color: #FDE1DB;
 }
 
 .leftRightArrow img:nth-child(2) {
@@ -421,25 +422,29 @@ nav img {
 .middleSection {
     display: flex;
     align-items: center;
-    gap: 500px;
+    gap: 50px;
     justify-content: space-around;
 }
 
 .lastSection {
     display: flex;
     align-items: center;
-    gap: 500px;
+    gap: 50px;
     justify-content: space-around;
 }
 
 .rsBoxLeft {
     display: flex;
     color: #ffffff;
+    width: 700px;
+    gap: 50px;
 }
- 
+
 .rsBoxRight {
     display: flex;
     color: #ffffff;
+    width: 700px;
+    gap: 50px;
 }
 
 .rsBoxRight img {
@@ -450,4 +455,77 @@ nav img {
 .rsBoxLeft img {
     height: 300px;
 
+}
+
+.rsBoxLeft h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.rsBoxRight h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.rsBoxLeft .rsBoxDetails p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 400;
+    color: #DF3A11;
+}
+
+.rsBoxRight .rsBoxDetails p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 400;
+    color: #DF3A11;
+}
+
+.rsBoxLeft .rsBoxDetails p:nth-child(3) {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    /* width:60%; */
+    text-align: left;
+}
+
+.rsBoxRight .rsBoxDetails p:nth-child(3) {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    /* width:60%; */
+    text-align: left;
+}
+
+.rsBoxDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* gap: 40px; */
+    justify-content: space-evenly;
+}
+
+.rsBoxDetails button {
+    background-color: #DF3A11;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 120px;
+    padding: 10px 10px;
+    text-align: center;
+
+}
+
+.middleSection .rsBoxLeft {
+    box-shadow: 0 0 10px 5px rgba(199, 128, 45, 1);
+}
+
+.middleSection .rsBoxRight {
+    box-shadow: 0 0 10px 5px rgba(183, 43, 41, 1);
+}
+
+.lastSection .rsBoxLeft {
+    box-shadow: 0 0 10px 5px rgba(38, 106, 144, 1);
+}
+
+.lastSection .rsBoxRight {
+    box-shadow: 0 0 10px 5px rgba(119, 96, 157, 1);
 }
