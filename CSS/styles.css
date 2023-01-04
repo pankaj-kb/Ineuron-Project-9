@@ -516,16 +516,41 @@ nav img {
 
 .middleSection .rsBoxLeft {
     box-shadow: 0 0 10px 5px rgba(199, 128, 45, 1);
+    transition: all 0.5s ease-in-out;
 }
 
 .middleSection .rsBoxRight {
-    box-shadow: 0 0 10px 5px rgba(183, 43, 41, 1);
+    box-shadow: 0 0 10px 5px rgba(5, 231, 5, 1);
+    transition: all 0.5s ease-in-out;
 }
 
 .lastSection .rsBoxLeft {
     box-shadow: 0 0 10px 5px rgba(38, 106, 144, 1);
+    transition: all 0.5s ease-in-out;
 }
 
 .lastSection .rsBoxRight {
     box-shadow: 0 0 10px 5px rgba(119, 96, 157, 1);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.middleSection .rsBoxLeft:hover {
+    /* box-shadow: none; */
+    transform: perspective(900px) rotateY(20deg);
+}
+
+.middleSection .rsBoxRight:hover {
+    /* box-shadow: none; */
+    transform: perspective(900px) rotateY(-20deg);
+}
+
+.lastSection .rsBoxLeft:hover {
+    /* box-shadow: none; */
+    transform: perspective(900px) rotateY(20deg);
+}
+
+.lastSection .rsBoxRight:hover {
+    /* box-shadow: none; */
+    transform: perspective(900px) rotateY(-20deg);
 }
