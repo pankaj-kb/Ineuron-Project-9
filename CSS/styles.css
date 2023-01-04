@@ -195,8 +195,8 @@ nav img {
     align-items: center;
     height: 900px;
     justify-content: space-evenly;
-    background: rgb(244, 105, 76);
-    background: radial-gradient(circle, rgba(244, 105, 76, 1) 51%, rgba(193, 19, 19, 1) 78%);
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 29%, rgba(166, 65, 32, 1) 92%);
 }
 
 .warGamesSection h1 {
