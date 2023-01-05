@@ -630,3 +630,19 @@ nav img {
     height: 250px;
     right: 80px;
 }
+
+/* Last Details */
+
+.lastDetails {
+    height: 950px;
+    background-color: #000308;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperSection {
+    background-image: url(../Assets/Photos/Rectangle\ 606.png);
+    display: flex;
+    flex-direction: column;
+}
