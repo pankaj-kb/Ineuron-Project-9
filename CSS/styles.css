@@ -641,6 +641,7 @@ nav img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 1.5px solid #DF3A11 ;
 }
 
 .lastDetails .upperSection {
@@ -692,4 +693,31 @@ nav img {
 .lastSection .rightSection {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+
+
+
+
+
+.extraSpacing {
+    height: 100px;
+    background-color: #000611;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature {
+    font-size: 18px;
+    font-weight: 600;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.extraSpacing:hover .signature{
+    /* visibility: visible; */
 }
