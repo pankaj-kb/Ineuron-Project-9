@@ -6,4 +6,4 @@
 
 ## Preview
 
-![Project 9](project-9-preview.gif)
+![Project 9](project9.gif)
