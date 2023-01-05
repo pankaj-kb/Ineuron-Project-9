@@ -639,10 +639,17 @@ nav img {
     color: #ffffff;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .upperSection {
     background-image: url(../Assets/Photos/Rectangle\ 606.png);
     display: flex;
     flex-direction: column;
+}
+
+.lastSection .rightSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
