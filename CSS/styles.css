@@ -556,3 +556,11 @@ nav img {
     /* box-shadow: none; */
     transform: perspective(900px) rotateY(-20deg);
 }
+
+/* Games of the year */
+
+.gamesOfTheYear {
+    background-color: #000308;
+    height: 1000px;
+    color: #ffffff;
+}
