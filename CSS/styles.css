@@ -643,10 +643,50 @@ nav img {
     justify-content: space-around;
 }
 
-.upperSection {
-    background-image: url(../Assets/Photos/Rectangle\ 606.png);
+.lastDetails .upperSection {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 500px;
+}
+.lastDetails .upperSection img {
+    background-position:center;
+    background-size: cover;
+    /* opacity: 50%; */
+    filter: brightness(30%);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 153px;
+}
+
+.lastDetails .upperSection h1 {
+    width: 500px;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: -260px;
+}
+
+.lastDetails .upperSection p {
+    color: #707174;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top: -270px;
+}
+
+.lastDetails .upperSection button {
+    background-color: #F4694C;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 25px;
+    text-align: center;
+    position: relative;
+    top: -270px;
 }
 
 .lastSection .rightSection {
