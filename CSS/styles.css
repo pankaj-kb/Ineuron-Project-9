@@ -581,7 +581,7 @@ nav img {
 .gamesOfTheYear p {
     width: 35%;
     color: #707174;
-    text-align:left ;
+    text-align: left;
     line-height: 150%;
     z-index: 2;
     position: relative;
@@ -605,13 +605,13 @@ nav img {
 
 @keyframes blink {
     50% {
-      box-shadow: none;
+        box-shadow: none;
     }
-  }
+}
 
 .gridImgs img {
     z-index: 2;
-    position:relative;
+    position: relative;
 }
 
 .gridImgs img:nth-child(1) {
@@ -634,14 +634,14 @@ nav img {
 /* Last Details */
 
 .lastDetails {
-    height: 950px;
+    height: 1000px;
     background-color: #000308;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1.5px solid #DF3A11 ;
+    border-bottom: 1.5px solid #DF3A11;
 }
 
 .lastDetails .upperSection {
@@ -651,9 +651,12 @@ nav img {
     gap: 30px;
     align-items: center;
     height: 500px;
+    position: relative;
+    top: 40px;
 }
+
 .lastDetails .upperSection img {
-    background-position:center;
+    background-position: center;
     background-size: cover;
     /* opacity: 50%; */
     filter: brightness(30%);
@@ -690,18 +693,76 @@ nav img {
     top: -270px;
 }
 
-.lastSection .rightSection {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.lastDetails .lastSection {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
 }
 
+.lastSection .leftSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: baseline;
+    left: -70px;
+    top: -100px;
+    position: relative;
+}
 
+.lastSection .leftSection img {
+    height: 50px;
+}
 
+.lastSection .leftSection p {
+    font-size: 14px;
+    color: #918D8D;
+    width: 50%;
+    text-align: left;
+}
 
+.gridIMG {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
+.gridIMG img {
+    height: 18px;
+}
 
+.lastSection .rightSection {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7) repeat(5) repeat(5) repeat(2);
+    color: #918D8D;
+    justify-items: start;
+    align-items:start;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 60px;
+}
 
+.rightSection p {
+    font-size: 15px;
+    /* height: -10px; */
+}
 
+.rightSection p:hover {
+    color: #DF3A11;
+}
+
+.gridHeadings {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+}
+
+/* Extra Space Section */
 
 .extraSpacing {
     height: 100px;
@@ -718,6 +779,7 @@ nav img {
     /* display: none; */
     /* visibility: hidden; */
 }
-.extraSpacing:hover .signature{
+
+.extraSpacing:hover .signature {
     /* visibility: visible; */
 }
